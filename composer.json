@@ -1,9 +1,28 @@
 {
-    "name": "basic php webapp",
-    "description": "Basic sample for securing a WebApp with Auth0",
+    "name": "ijsucceed/idea-hub",
+    "description": "Idea sharing app",
+    "keywords": ["idea, video, Hub"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ijsucceed",
+            "email": "ikwuje24@gmail.com"
+        }
+    ],
     "require": {
-         "vlucas/phpdotenv": "2.3.0",
-         "auth0/auth0-php": "~4.0"
+        "php": ">=7.0.0",
+        "filp/whoops": "~2.1",
+        "patricklouys/http": "~1.4",
+        "nikic/fast-route": "~1.2.0",
+        "rdlowrey/auryn": "^1.4",
+        "mustache/mustache": "^2.12",
+        "facebook/graph-sdk": "^5.6",
+        "auth0/auth0-php": "^5.3",
+        "vlucas/phpdotenv": "^2.5"
     },
-    "license": "MIT"
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
 }

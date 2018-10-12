@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+    width: 100%;
+    background: #e5eff0;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+}
+a,  a:hover, a:visited {
+    text-decoration: none;
+    color:#20c7a1; 
+}
+.site-wrapper {
+    width: 100%;
+}
+.site-sidebar {
+    width: 260px;
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 910;
+    border-right: 1px solid #d7dcdf;
+    
+}
+.shadow-site-sidebar {
+    width: 260px;
+}
+.site-sidebar .site-logo-section {
+    font-weight: bold;
+    font-size: 22px;
+    padding: 1.5rem 2rem 2rem;
+    margin-bottom: 1rem;
+}
+.site-sidebar-content {  
+    height: 100vh;
+}
+.site-sidebar .site-logo-section a {
+    color: #222;
+    text-decoration: none;
+}
+nav.primary-menu li {
+    position: relative;
+}
+nav.primary-menu li:hover {
+    background: rgba(32, 199, 161, 0.05);
+}
+nav.primary-menu a.active {
+    font-weight: bold;
+    color: #20c7a1;
+    border-right: 4px solid #20c7a1;
+}
+nav.primary-menu a {
+    display: block;
+    padding: .75rem 2rem;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #263238;
+    position: relative;
+}
+.site-content {
+    width: 54%;
+    position: relative;
+    z-index: 900;
+    padding: 27px 0;
+}
+main.content-wrap {
+    position: relative;
+}
+.site-widget {
+    width: 280px;
+    margin-right: 16px;
+    margin-top: 68px;
+}
+
+.login-card.post-card {
+    padding: 0;
+}
+.post-card {
+    margin-bottom: 20px;
+    background: #FFF;
+    padding: 24px 36px;
+    display: block;
+    border: 1px solid #d6d8df;
+}
+.login-card.post-card .form-column, .login-card.post-card .text-column {
+    width: 50%;
+    padding: 3rem 2rem;
+}
+.login-card.post-card .text-column {
+    color: #FFF;
+    background: #20c7a1;
+    background: linear-gradient(160deg,#20c7a1 0,#0784b2 60%);
+}
+.login-card.post-card .text-column h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0 0 .5rem;
+}
+.login-card.post-card .text-column h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.login-card.post-card .magic-form {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.login-card.post-card .form-column h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #777;
+    margin: 0;
+}
+.login-card.post-card .magic-form .social-login a {
+    color: #FFF;
+    font-weight: 500;
+    background: #fafafa;
+    padding: .3rem 1rem;
+    border-radius: 1000px;
+    margin: 0 .5rem .5rem 0;
+}
+.login-card.post-card .magic-form .social-login a.btn-google {
+    background: #4285f4;
+}
+.login-card.post-card .magic-form .social-login a.btn-fb {
+    background: #3b5998;
+}
+.site-footer {
+    width: 24%;
+    background: #ffffff;
+}
+
+/** btn */
+.btn-default {
+    background-color: #20c7a1;
+    color: #fff;
+}
