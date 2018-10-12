@@ -17,7 +17,7 @@
         "nikic/fast-route": "~1.2.0",
         "rdlowrey/auryn": "^1.4",
         "mustache/mustache": "^2.12",
-        "facebook/graph-sdk": "^5.6",
+        "facebook/graph-sdk": "^5.6"
     },
     "autoload": {
         "psr-4": {
