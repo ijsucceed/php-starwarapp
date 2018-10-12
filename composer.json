@@ -10,14 +10,14 @@
         }
     ],
     "require": {
+        "vlucas/phpdotenv": "2.3.0",
+        "auth0/auth0-php": "~4.0",
         "filp/whoops": "~2.1",
         "patricklouys/http": "~1.4",
         "nikic/fast-route": "~1.2.0",
         "rdlowrey/auryn": "^1.4",
         "mustache/mustache": "^2.12",
         "facebook/graph-sdk": "^5.6",
-        "auth0/auth0-php": "^5.3",
-        "vlucas/phpdotenv": "^2.5"
     },
     "autoload": {
         "psr-4": {
